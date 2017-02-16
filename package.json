@@ -5,9 +5,12 @@
   "author": "Mori-Atsushi <e1237@s.akashi.ac.jp>",
   "license": "MIT",
   "dependencies": {
+    "@mars/heroku-nextjs-build": "^1.1.0",
     "next": "^1.2.3",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "heroku-nextjs-build"
   },
   "scripts": {
     "dev": "next",
@@ -22,5 +25,11 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.0"
-  }
+  },
+  "engines": {
+    "node": "7.1.x"
+  },
+  "cacheDirectories": [
+    "nextjs/node_modules"
+  ]
 }
