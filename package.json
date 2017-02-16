@@ -1,0 +1,17 @@
+{
+  "name": "cyder-website",
+  "version": "1.0.0",
+  "repository": "git@github.com:cyder-akashi/cyder-website.git",
+  "author": "Mori-Atsushi <e1237@s.akashi.ac.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^1.2.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
