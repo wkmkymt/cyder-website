@@ -15,7 +15,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "start": "next start -p $PORT",
     "heroku-postbuild": "heroku-nextjs-build"
   },
   "devDependencies": {
@@ -27,7 +26,7 @@
     "eslint-plugin-react": "^6.10.0"
   },
   "engines": {
-    "node": "6.9.x"
+    "node": "7.1.x"
   },
   "cacheDirectories": [
     "nextjs/node_modules"
